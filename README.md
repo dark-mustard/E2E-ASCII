@@ -2,7 +2,7 @@
 # E2E ASCII
 With the rise of quantum computing - E2E encryption is no longer good enough.  So just don't worry about it and make your message kick-ass instead!
 
-Also the widely used artii.herokuapp.com url stopped working so i deployed this slightly different version to partii.herokuapp.com - I really enjoy spamming it with bad words when i'm pissed about someone instead of just talking to them - so I went for it!
+Also the widely used artii.herokuapp.com url stopped working so i deployed this slightly different version to partii.herokuapp.com - I really enjoy spamming it with bad words when i'm pissed at someone instead of just talking to them - so I went for it!
 
 ## Here's a conclusive list of example urls:
 
