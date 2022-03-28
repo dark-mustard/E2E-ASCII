@@ -4,7 +4,9 @@ With the rise of quantum computing - E2E encryption is no longer good enough.  S
 
 Also the widely used artii.herokuapp.com url stopped working so i deployed this slightly different version to partii.herokuapp.com - I really enjoy spamming it with bad words when i'm pissed at someone instead of just talking to them - so I went for it!
 
-## Here's a conclusive list of example urls:
+## Usage Examples
+
+### Here's a conclusive list of example urls:
 
 #### Gets a list of ASCII fonts I found - most should work but some might not
 ```
@@ -26,11 +28,13 @@ https://partii.herokuapp.com/convert?message=hello$20world
 #https://partii.herokuapp.com/convert?message=hello$20world&font=random
 ```
 
+## PowerShell Function Example
+
 PowerShell script included that consumes the API / as well as the old one too.
 
 ```powershell
 
-PS E:\> New-Asciimessage -Text "I AM A HUGE ASSHOLE"
+PS E:\> New-ASCIIMessage -Text "I AM A HUGE ASSHOLE"
 o-O-o       O  o   o       O      o  o o   o  o-o  o--o 
   |        / \ |\ /|      / \     |  | |   | o     |
   |       o---o| O |     o---o    O--O |   | |  -o O-o
