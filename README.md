@@ -76,12 +76,17 @@ function New-ASCIIMessage{
     }
 ```
 
+Call the function like this:
 ```powershell
-PS C:> New-ASCIIMessage -Text "#yolo"
-   ::  ::.-:.     ::-.   ...      :::         ...     
+New-ASCIIMessage -Text "#yolo"
+```
+ 
+Returns raw ASCII string:
+```
+    ::  ::.-:.     ::-.   ...      :::         ...     
 __,;'_,;'_';;.   ;;;;'.;;;;;;;.   ;;;      .;;;;;;;.  
 ''[[''[[''  '[[,[[[' ,[[     \[[, [[[     ,[[     \[[,
  ,$" ,$"      c$$"   $$$,     $$$ $$'     $$$,     $$$
 o88oo88oo   ,8P"`    "888,_ _,88Po88oo,.__"888,_ _,88P
 ,M" ,M"    mM"         "YMMMMMP" """"YUMMM  "YMMMMMP" 
- ```
+```
